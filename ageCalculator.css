@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 8, 2015, 9:49:40 AM
+    Author     : bari
+*/
+
+
+            h1{
+                text-align: center;
+            }
+            #main{
+                border:3px solid gray;
+                border-radius: 15px;
+                position: relative;
+                top: 50px;
+                width: 30%;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+                
+            }
+            .left{
+                float: left;
+                width: 11em;
+                margin-bottom: 10px;
+            }
+            .date_type{
+                margin-bottom: 10px;
+            }
+            #cal_button{
+                position: relative;
+                left: 44%
+            }

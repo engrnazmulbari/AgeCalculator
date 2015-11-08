@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Age calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="ageCalculator.css" type="text/css" rel="stylesheet">
+        <script src="ageCalculator.js"></script>
+    </head>
+    <body>
+        <h1>Calculate your age</h1>
+        <div id="main">
+            <fieldset>
+            <legend>Age calculator</legend>
+            <label class="left">Date of Birth:</label>
+            <input id="birth_date" type="date" class="date_type"/><br/>
+            <label class="left">Date of Calculation</label>
+            <input id="specific_date" type="date" class="date_type"/><br>
+            <label id="age_calc"> </label>
+            <br/>
+            <input id="cal_button" type="button" value="Calculate" onclick="ageCalculate()" />
+            
+            </fieldset>
+        </div>
+
+        
+    </body>
+</html>
